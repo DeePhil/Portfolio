@@ -1,0 +1,115 @@
+
+
+/*body {
+  background-image: url("https://www.picmonkey.com/blog/wp-content/uploads/2014/10/picmonkey_comicheroes_03.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}*/
+
+html {
+  background: url("https://s-media-cache-ak0.pinimg.com/736x/64/c6/38/64c6387b57dc8cdace4727e0949f3440.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+.container1 {
+  min-height: 100%;
+  position: relative;
+  margin-bottom: 5em;
+}
+
+#fixedheader {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	color:#CCC;
+	background:black;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: .5em;
+  border-bottom: solid white;
+}
+
+.title {
+  text-align: right;
+  margin-right: 2em;
+}
+
+.boom {
+  margin-top:7.6em;
+}
+
+.me {
+  font-family: papyrus;
+  text-align: right;
+  border: solid black .2em;
+  background: white;
+  background: rgba(255, 255, 255, .5);
+  margin-top: 9em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 1em;
+}
+
+.first {
+  padding-top: .5em;
+  border: solid firebrick .2em;
+  /*opacity: .5;*/
+  background: rgba(255, 255, 255, .5);
+  float: left;
+  width: 30%;
+  margin: 1%;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  /*margin-left: 7.5em;*/
+  text-align: center;
+  font-family: papyrus;
+}
+
+.second {
+  padding-top: .5em;
+  border: solid black .2em;
+  /*opacity: .5;*/
+  background: rgba(255, 255, 255, .5);
+  float: left;
+  width: 30%;
+  margin: 3%;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  text-align: center;
+  font-family: papyrus;
+}
+
+.third {
+  padding-top: .5em;
+  border: solid gold .2em;
+  /*opacity: .5;*/
+  background: rgba(255, 255, 255, .5);
+  float: right;
+  width: 25%;
+  margin: 1%;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  text-align: center;
+  font-family: papyrus;
+}
+
+.kadpow {
+  margin-bottom: 5em;
+}
+
+#fixedfooter {
+	position: relative;
+  clear:both;
+	bottom:0;
+	left: 0;
+	width:100%;
+	color:#CCC;
+	background:black;
+  padding-top: 1em;
+	padding-bottom:1.5em;
+  text-align: center;
+  border-top: white solid;
+  height: 3em;
+}
